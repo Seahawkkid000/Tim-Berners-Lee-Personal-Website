@@ -1,0 +1,50 @@
+body{
+    text-align: center;
+    font-family: 'Smooch', cursive;
+}
+#Welcome{
+    background-image: linear-gradient(rgb(0, 155, 233),Green);
+    padding: 60px;
+    z-index: 9;
+    
+}
+#Welcome img{
+    border-radius: 500px;
+}
+#name{
+    font-family:'Courier New', Courier, monospace;
+    font-size: 30px;
+
+}
+#Hitext{
+  font-size: 50px;  
+}
+#para{
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.menu{
+    z-index: 10;
+    position:absolute;
+    list-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+    top: 10px;
+    right: 30px;
+    cursor: pointer;
+}
+.links{
+    float:left;
+    font-family: fantasy;
+    color:rgb(12, 60, 60);
+    font-size: 20px;
+    margin: 50px;
+    padding: 5px;
+}
+.links:hover{
+    background-color: darkcyan;
+}
+#bio{
+    background-color: darkcyan;
+    padding: 10px;
+    font-size: x-large;
+}
